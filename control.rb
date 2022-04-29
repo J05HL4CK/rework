@@ -3,7 +3,7 @@
 # this simple calculator shows all three examples Sequential, Selection and Iteration.
 continue = true
 while continue == true
-  puts 'enter 2 numbers'
+  puts 'enter 2 integers'
   num1 = gets.chomp.to_f
   num2 = gets.chomp.to_f
   puts 'select an operation'
@@ -19,7 +19,7 @@ while continue == true
     if num2.zero?
       puts 'Undefined operation - cannot divide by zero'
     else
-    puts "#{num1} / #{num2} = #{num1 / num2}"
+      puts "#{num1} / #{num2} = #{num1 / num2}"
     end
   when 'exit'
     continue = false
