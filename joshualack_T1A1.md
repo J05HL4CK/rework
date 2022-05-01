@@ -30,13 +30,13 @@
 
 4. ## Data Structures in Ruby
 
-    An array is a fundamental data structure of programming and is useful for performing operations on whole collections of elements rather than individual variables. An advantage of using an array is once they are declared they can be reused multiple times. (Miralles,  Arrays are data structures that represent a set of elements that can be selected by indices and computed upon at runtime during a programs execution. An array is used to store multiple elements of similar type together so they can be called upon by a common name (https://www.geeksforgeeks.org/ruby-arrays/). An array is a fundamental data structure of programming and is useful for performing operations on whole collections of elements rather than individual variables. An advantage of using an array is once they are declared they can be reused multiple times. (Miralles,). Arrays store data contiguously and unlike other low level languages Ruby uses dynamic arrays. ![array](./images/array_example1.png) 
-    ![example](./images/ruby_array_example.png) ![example2](./images/ruby_array_example2.png) 
+    An array is a fundamental data structure of programming and is useful for performing operations on whole collections of elements rather than individual variables. An advantage of using an array is once they are declared they can be reused multiple times. (Miralles,  Arrays are data structures that represent a set of elements that can be selected by indices and computed upon at runtime during a programs execution. An array is used to store multiple elements of similar type together so they can be called upon by a common name (https://www.geeksforgeeks.org/ruby-arrays/). An array is a fundamental data structure of programming and is useful for performing operations on whole collections of elements rather than individual variables. An advantage of using an array is once they are declared they can be reused multiple times. (Miralles,). Arrays store data contiguously and unlike other low level languages Ruby uses dynamic arrays. ![array](.//images/array_example1.png) 
+    ![example](.//images/ruby_array_example.png) ![example2](.//images/ruby_array_example2.png) 
 
     A hash is a data structure that is generally like an array. A Hash differs from an array in that, instead of indexing by integer a hash allows the use of key/value pairs. This is useful for dealing with large or nested arrays and aids in fast access of elements if the key is known. (Miralles, 2018).  Hashes are the fastest storage structure for data and makes them essential for situations in which a computer system is interacting with data rather than a human (https://everythingcomputerscience.com/discrete_mathematics/Data_Structures/Hash_Table.html).
-    ![hash](./images/hash_ex3.png) ![ruby_example](./images/ruby_hash_ex.png) ![ruby_ex_2](./images/ruby_hash_ex2.png)
+    ![hash](.//images/hash_ex3.png) ![ruby_example](.//images/ruby_hash_ex.png) ![ruby_ex_2](.//images/ruby_hash_ex2.png)
 
-    A linked list is a data structure consisting of an element (node) which holds two key pieces of information, the data and a reference to the next node. It is a linear set of elements and is useful for storing and managing collections of data. https://medium.com/analytics-vidhya/implement-a-linked-list-in-ruby-2aae925acd9c) . It is similar to an array however, the key difference lies in memory allocation. A linked list can be stored as just its nodes in separate blocks of memory. Which results in greater flexibility of memory allocation for other objects and doesn’t use any extra space than is needed. ![linked_list](./images/linked_list.png) ![linked_list2](./images/linked_1.png) ![linked3](./images/linked_2.png)
+    A linked list is a data structure consisting of an element (node) which holds two key pieces of information, the data and a reference to the next node. It is a linear set of elements and is useful for storing and managing collections of data. https://medium.com/analytics-vidhya/implement-a-linked-list-in-ruby-2aae925acd9c) . It is similar to an array however, the key difference lies in memory allocation. A linked list can be stored as just its nodes in separate blocks of memory. Which results in greater flexibility of memory allocation for other objects and doesn’t use any extra space than is needed. ![linked_list](.//images/linked_list.png) ![linked_list2](.//images/linked_1.png) ![linked3](.//images/linked_2.png)
 
 
 5. ## Compilers & Interpreters
@@ -55,38 +55,38 @@
 
 8. ## Control Flow
 
-    A script interpreter starts processing statements sequentially, starting at the first line of code. The sequential flow of execution can be determined with control statements (https://www.ibm.com/docs/en/tivoli-monitoring/6.3.0?topic=language-flow-control-statements). A control statement provides the means to alter and control the sequence of applied statements. There are many kinds of control flow some of those being sequencing, selection and iteration. Sequencing is the order in which statements are executed and refers to executing statements one after another. Selection is a decision-making process and the result changes the path of the program. Iteration is the repetition of some process and is often referred to as looping (https://www.bbc.co.uk/bitesize/guides/z433rwx/revision/4). ![controlflow](./images/control.png)
+    A script interpreter starts processing statements sequentially, starting at the first line of code. The sequential flow of execution can be determined with control statements (https://www.ibm.com/docs/en/tivoli-monitoring/6.3.0?topic=language-flow-control-statements). A control statement provides the means to alter and control the sequence of applied statements. There are many kinds of control flow some of those being sequencing, selection and iteration. Sequencing is the order in which statements are executed and refers to executing statements one after another. Selection is a decision-making process and the result changes the path of the program. Iteration is the repetition of some process and is often referred to as looping (https://www.bbc.co.uk/bitesize/guides/z433rwx/revision/4). ![controlflow](.//images/control.png)
 
 9.  ## Type Coercion
 
-    Type coercion happens because data is stored as one type but the context it is required in is a different data type. Type coercion is converting a datum to a different type of data in an expression (http://faculty.salina.k-state.edu/tmertz/Java/041datatypesandoperators/07typecoercionandconversion.pdf).In general, coercion refers to implicit conversion which is an automatic process run by the compiler to avoid loss of data when one or more data types are present in an expression (https://www.geeksforgeeks.org/implicit-type-conversion-in-c-with-examples/). Explicit conversion is stated within a program and defined by the user. ![coercion-conversion](./images/coercion.png)
+    Type coercion happens because data is stored as one type but the context it is required in is a different data type. Type coercion is converting a datum to a different type of data in an expression (http://faculty.salina.k-state.edu/tmertz/Java/041datatypesandoperators/07typecoercionandconversion.pdf).In general, coercion refers to implicit conversion which is an automatic process run by the compiler to avoid loss of data when one or more data types are present in an expression (https://www.geeksforgeeks.org/implicit-type-conversion-in-c-with-examples/). Explicit conversion is stated within a program and defined by the user. ![coercion-conversion](.//images/coercion.png)
 
 10. ## Data types
 
     A data type defines the nature of a variable and its range of values. Data types also define memory allocation for each type. Data types are allocated different sized chunks of memory based on their type. In Ruby, data types are referred to as classes. Like other object orientated languages, a class in Ruby is a description of objects (Computer Science Programming Basics in Ruby).
     
-    Data types in Ruby include strings, numbers, symbols, arrays, hashes and Booleans. Each representing a specific type of data and what operations can be performed on them. ![data-types](./images/data-types.png)
+    Data types in Ruby include strings, numbers, symbols, arrays, hashes and Booleans. Each representing a specific type of data and what operations can be performed on them. ![data-types](.//images/data-types.png)
 
 
 11. ## Code Error
 
-   ![restaurant](./images/rest_1.png) ![restaurant2](./images/rest_2.png) ![restaurant3](./images/rest_3.png)
+   ![restaurant](.//images/rest_1.png) ![restaurant2](.//images/rest_2.png) ![restaurant3](.//images/rest_3.png)
 
 12. ## Code Snippet
 
-    ![snippet](./images/q12.png)
+    ![snippet](.//images/q12.png)
 
 13. ## Code Snippet Two
 
-    ![snippet](./images/q13.png) ![bubble](./images/q13_2.png)
+    ![snippet](.//images/q13.png) ![bubble](.//images/q13_2.png)
 
 14. ## Prime Sieve
 
-    ![flowchart](./images/flowchart.png) [![primes](./images/q14.png) ![primesieve](./images/q14_2.png)
+    ![flowchart](.//images/flowchart.png)  ![primes](.//images/q14.png)  ![primesieve](.//images/q14_2.png)
 
 15. ## Raining Pseudocode
 
-    ![raining](./images/q15.png)
+    ![raining](.//images/q15.png)
 
  ## REFERENCES
 ------
