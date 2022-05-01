@@ -11,4 +11,4 @@ array = [integer, float]
 # "hash" is a hash conting string: as the symbol and textual as the value
 hash = {string: textual}
 # Boolean true/false
-array.include?(integer) 
+array.include?(integer)

@@ -1,5 +1,4 @@
-temperature = gets.chomp.to_i
-raining = true
+
 case temperature
 when (0..15)
   if raining == true

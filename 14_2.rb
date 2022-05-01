@@ -1,4 +1,4 @@
-# frozen_string_literal: true
+# I know this uses way more memory than is necessary but I wanted to see if I could do it :)
 
 multiples = []
 (1..100).each do |x|
